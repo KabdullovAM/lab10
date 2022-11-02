@@ -18,11 +18,22 @@ function get_sum(lab)
 	sum=0;
 	const results=
 	{
+		lab1,
+		lab2,
+		lab3,
+		lab45,
+		lab6,
+		lab8,
+		quiz1,
 		summa
 	}
 	return results;
 }
-console.log(get_sum(lab1),get_sum(lab2),get_sum(lab3),get_sum(lab45),get_sum(lab6),get_sum(lab8),get_sum(quiz1))
+function summation()
+{
+	return get_sum(lab1),get_sum(lab2),get_sum(lab3),get_sum(lab45),get_sum(lab6),get_sum(lab8),get_sum(quiz1)
+}
+console.log(summation())
 function total()
 {
 	totalscore=(summa[0]+summa[1]+summa[2]+summa[3]+summa[4]+summa[5])*60/280+summa[6];
